@@ -78,13 +78,13 @@ def show_ques():
     rbtn_3.setChecked(False)
     rbtn_4.setChecked(False)
     RadioGroup.setExclusive(True)
-'''
+
 def test():
     if 'Ответить' == btn_ok.text():
         show_res()
     else:
         show_ques()
-'''
+
 btn_ok.clicked.connect(test)
 main_win.setLayout(layoutcard)
 main_win.show()
